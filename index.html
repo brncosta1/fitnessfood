@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Fitness Food</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./assets/css/style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="logo" src="/assets/img/logo.png" alt="Fitness Food BR Logo">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link ativo" href="#">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Quem somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <img class="banner__imagem" alt="Imagem com vegetais, legumes e verduras" src="/assets/img/banner.jpg">
+            <h2 class="banner__titulo">Receitas para um estilo de vida saudável!</h2>
+            <p class="banner__texto">Bem-vindo ao nosso site, onde a saúde e o sabor andam de mãos dadas! Aqui, você encontrará uma variedade de pratos nutritivos e deliciosos para todos os gostos e necessidades alimentares.</p>
+        </section>
+        <img class="receitas__banner" alt="Prato com pimentões recheados" src="/assets/img/banner2.jpg">
+        <section class="receitas">
+            <div class="receita">
+                <img alt="Omelete de batata-doce" class="receita__imagem" src="./assets/img/receitas/omelete-batata-doce.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Omelete de batata-doce</h4>
+                    <p class="receita__descricao">Tempo: 25min</p>
+                    <p class="receita__descricao">Rendimento: 2 unidades</p>
+                    <p class="receita__descricao">Dificuldade: ★☆☆ - Fácil </p>
+                    <button class="receita__botao" data-target="#omelete-batata-doce">Ver receita</button>
+
+                    <div id="omelete-batata-doce" class="receita__container hidden">
+                
+                        <ul class="receita__ingredientes">
+                            <h3 class="receita__ingredientes-titulo">Ingredientes</h3>
+                            <li class="receita__ingredientes-lista">4 ovos</li>
+                            <li class="receita__ingredientes-lista">1 xícara (chá) de batata-doce em cubos cozida</li>
+                            <li class="receita__ingredientes-lista">1/2 xícara (chá) de couve em fatias finas</li>
+                            <li class="receita__ingredientes-lista">1 tomate sem sementes picado</li>
+                            <li class="receita__ingredientes-lista">Sal e pimenta-do-reino a gosto</li>
+                            <li class="receita__ingredientes-lista">1 colher (sopa) de azeite</li>
+                            <h3 class="receita__ingredientes-modo">Modo de preparo</h3>
+                            <li class="receita__ingredientes-lista">Em uma tigela, bata os ovos com um garfo até ficar homogêneo.</li>
+                            <li class="receita__ingredientes-lista">Junte a batata, a couve e o tomate. Tempere com sal e pimenta.</li>
+                            <li class="receita__ingredientes-lista">Em uma frigideira antiaderente média, aqueça o azeite em fogo médio e despeje os ovos.</li>
+                            <li class="receita__ingredientes-lista">Deixe cozinhar por 5 minutos de cada lado, em fogo baixo, ou até que não esteja mais cru. Sirva em seguida.</li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Arroz de Couve-flor" class="receita__imagem" src="./assets/img/receitas/arroz-couveflor.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Arroz de couve-flor</h4>
+                    <p class="receita__descricao">Tempo: 20min</p>
+                    <p class="receita__descricao">Rendimento: 4 porções</p>
+                    <p class="receita__descricao">Dificuldade: ★☆☆ - Fácil </p>
+                    <button class="receita__botao" data-target="#arroz-couve-flor">Ver receita</button>
+
+                    <div id="arroz-couve-flor" class="receita__container hidden">
+                
+                        <ul class="receita__ingredientes">
+                            <h3 class="receita__ingredientes-titulo">Ingredientes</h3>
+                            <li class="receita__ingredientes-lista">1 maço de couve-flor</li>
+                            <li class="receita__ingredientes-lista">1 colher (sopa) de óleo de coco</li>
+                            <li class="receita__ingredientes-lista">1/2 cebola picada</li>
+                            <li class="receita__ingredientes-lista">2 dentes de alho picados</li>
+                            <li class="receita__ingredientes-lista">Sal e cheiro-verde picado a gosto</li>
+                            <h3 class="receita__ingredientes-modo">Modo de preparo</h3>
+                            <li class="receita__ingredientes-lista">Corte o maço de couve-flor em floretes e coloque no liquidificador e deixe até ficar triturado.</li>
+                            <li class="receita__ingredientes-lista">Retire e reserve.</li>
+                            <li class="receita__ingredientes-lista">Aqueça uma frigideira com o óleo e frite a cebola e o alho por 2 minutos.</li>
+                            <li class="receita__ingredientes-lista">Adicione a couve flor, tempere com sal a gosto e cozinhe até ficar bem macio.</li>
+                            <li class="receita__ingredientes-lista">Misture com o cheiro-verde e sirva em seguida.</li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Lasanha de abobrinha" class="receita__imagem" src="./assets/img/receitas/lasanha-fitness.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Lasanha fitness de abobrinha</h4>
+                    <p class="receita__descricao">Tempo: 1h20</p>
+                    <p class="receita__descricao">Rendimento: 6 porções</p>
+                    <p class="receita__descricao">Dificuldade: ★★☆ - Média </p>
+                    <button class="receita__botao" data-target="#lasanha-abobrinha">Ver receita</button>
+
+                    <div id="lasanha-abobrinha" class="receita__container hidden">
+                
+                        <ul class="receita__ingredientes">
+                            <h3 class="receita__ingredientes-titulo">Ingredientes</h3>
+                            <li class="receita__ingredientes-lista">5 abobrinhas fatiadas bem finas</li>
+                            <li class="receita__ingredientes-lista">Sal e pimenta-do-reino a gosto</li>
+                            <li class="receita__ingredientes-lista">1 fio de azeite</li>
+                            <li class="receita__ingredientes-lista">4 colheres (sopa) de azeite</li>
+                            <li class="receita__ingredientes-lista">300g de carne moída</li>
+                            <li class="receita__ingredientes-lista">2 dentes de alho esmagados</li>
+                            <li class="receita__ingredientes-lista">8 tomates bem maduros e picados</li>
+                            <li class="receita__ingredientes-lista">2 galhos de folhas de manjericão fresco</li>
+                            <li class="receita__ingredientes-lista">Sal e pimenta calabresa a gosto</li>
+                            <li class="receita__ingredientes-lista">400g de queijo tipo cottage</li>
+                            <li class="receita__ingredientes-lista">500g de peito de peru fatiado e em tiras</li>
+                            <h3 class="receita__ingredientes-modo">Modo de preparo</h3>
+                            <li class="receita__ingredientes-lista">Tempere as abobrinhas com sal, pimenta e grelhe rapidamente em uma frigideira antiaderente com um fio de azeite. Reserve.</li>
+                            <li class="receita__ingredientes-lista">Para o molho de tomate, aqueça o azeite em uma panela e doure a carne.</li>
+                            <li class="receita__ingredientes-lista">Adicione o restante dos ingredientes e cozinhe em fogo médio por aproximadamente 10 minutos ou até formar um molho espesso. Desligue e reserve.</li>
+                            <li class="receita__ingredientes-lista">Para o recheio, misture o queijo cottage e o peito de peru. Reserve.</li>
+                            <li class="receita__ingredientes-lista">Para montar a lasanha, em um refratário médio, coloque um pouco do molho.</li>
+                            <li class="receita__ingredientes-lista">Espalhe muitas camadas de abobrinha, em seguida espalhe o recheio de queijo e peito de peru e finalize com o molho de tomate.</li>
+                            <li class="receita__ingredientes-lista">Repita o processo, até que acabem os ingredientes.</li>
+                            <li class="receita__ingredientes-lista">Leve ao forno médio, preaquecido, por 20 minutos. Retire e sirva em seguida.</li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Sopa-Creme de frango" class="receita__imagem" src="./assets/img/receitas/sopa-frango.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Sopa-creme de frango com verduras</h4>
+                    <p class="receita__descricao">Tempo: 40min</p>
+                    <p class="receita__descricao">Rendimento: 6 porções</p>
+                    <p class="receita__descricao">Dificuldade: ★☆☆ - Fácil </p>
+                    <button class="receita__botao" data-target="#sopa-creme-frango">Ver receita</button>
+
+                    <div id="sopa-creme-frango" class="receita__container hidden">
+                
+                        <ul class="receita__ingredientes">
+                            <h3 class="receita__ingredientes-titulo">Ingredientes</h3>
+                            <li class="receita__ingredientes-lista">3 colheres (sopa) de óleo</li>
+                            <li class="receita__ingredientes-lista">1 cebola picada</li>
+                            <li class="receita__ingredientes-lista">2 dentes de alho picados</li>
+                            <li class="receita__ingredientes-lista">2 peitos de frango sem pele e sem osso em cubos</li>
+                            <li class="receita__ingredientes-lista">Sal e pimenta-do-reino a gosto</li>
+                            <li class="receita__ingredientes-lista">2 colheres (sopa) de farinha de trigo</li>
+                            <li class="receita__ingredientes-lista">3 cubos de caldo de galinha</li>
+                            <li class="receita__ingredientes-lista">5 xícaras (chá) de água quente</li>
+                            <li class="receita__ingredientes-lista">4 xícaras (chá) de verduras verdes picadas (brócolis, couve, escarola, espinafre, etc)</li>
+                            <li class="receita__ingredientes-lista">1 lata de creme de leite</li>
+                            <h3 class="receita__ingredientes-modo">Modo de preparo</h3>
+                            <li class="receita__ingredientes-lista">Aqueça o óleo em uma panela, em fogo médio, e frite a cebola, o alho e o frango até dourar.</li>
+                            <li class="receita__ingredientes-lista">Tempere com sal e pimenta. Retire o frango e reserve.</li>
+                            <li class="receita__ingredientes-lista">Na mesma panela, polvilhe a farinha, volte o frango e cozinhe por 2 minutos.</li>
+                            <li class="receita__ingredientes-lista">Adicione o caldo de galinha dissolvido na água, aos poucos, mexendo até engrossar levemente.</li>
+                            <li class="receita__ingredientes-lista">Acrescente as verduras picadas e cozinhe por 10 minutos.</li>
+                            <li class="receita__ingredientes-lista">Desligue, misture com o creme de leite e sirva em seguida.</li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Bolo de banana e granola" class="receita__imagem" src="./assets/img/receitas/bolo-banana.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Bolo de banana com granola</h4>
+                    <p class="receita__descricao">Tempo: 1h30</p>
+                    <p class="receita__descricao">Rendimento: 12 fatias</p>
+                    <p class="receita__descricao">Dificuldade: ★★☆ - Média </p>
+                    <button class="receita__botao" data-target="#bolo-banana">Ver receita</button>
+
+                    <div id="bolo-banana" class="receita__container hidden">
+                
+                        <ul class="receita__ingredientes">
+                            <h3 class="receita__ingredientes-titulo">Ingredientes</h3>
+                            <li class="receita__ingredientes-lista">3 ovos (claras e gemas separadas)</li>
+                            <li class="receita__ingredientes-lista">1 e 1/2 xícara (chá) de leite</li>
+                            <li class="receita__ingredientes-lista">1 e 1/2 colher (sopa) de manteiga</li>
+                            <li class="receita__ingredientes-lista">2 xícaras (chá) de farinha de trigo</li>
+                            <li class="receita__ingredientes-lista">2 xícaras (chá) de açúcar</li>
+                            <li class="receita__ingredientes-lista">1 colher (sopa) de fermento em pó</li>
+                            <li class="receita__ingredientes-lista">6 bananas pequenas em rodelas</li>
+                            <li class="receita__ingredientes-lista">1 xícara (chá) de granola</li>
+                            <li class="receita__ingredientes-lista">Margarina e farinha de trigo para untar</li>
+                            <li class="receita__ingredientes-lista">Granola e canela em pó para polvilhar</li>
+                            <h3 class="receita__ingredientes-modo">Modo de preparo</h3>
+                            <li class="receita__ingredientes-lista">Bata no liquidificador as gemas, o leite e a manteiga derretida.</li>
+                            <li class="receita__ingredientes-lista">crescente a farinha, o açúcar, o fermento, 3 bananas e bata.</li>
+                            <li class="receita__ingredientes-lista">Adicione a granola, a banana restante e misture.</li>
+                            <li class="receita__ingredientes-lista">Bata as claras em neve e adicione à massa delicadamente.</li>
+                            <li class="receita__ingredientes-lista">Despeje em uma fôrma para pão untada e enfarinhada e leve ao forno médio por 35 minutos ou até assar.</li>
+                            <li class="receita__ingredientes-lista">Polvilhe com granola, canela e sirva.</li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Omelete de batata-doce" class="receita__imagem" src="./assets/img/receitas/salmao-maracuja.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Salmão grelhado ao molho de maracujá</h4>
+                    <p class="receita__descricao">Tempo: 20min (+1h de geladeira)</p>
+                    <p class="receita__descricao">Rendimento: 4 porções</p>
+                    <p class="receita__descricao">Dificuldade: ★☆☆ - Fácil </p>
+                    <button class="receita__botao" data-target="#salmao-maracuja">Ver receita</button>
+
+                    <div id="salmao-maracuja" class="receita__container hidden">
+                
+                        <ul class="receita__ingredientes">
+                            <h3 class="receita__ingredientes-titulo">Ingredientes</h3>
+                            <li class="receita__ingredientes-lista">4 pedaços de filé de salmão com 3 dedos de espessura cada</li>
+                            <li class="receita__ingredientes-lista">Sal e pimenta-do-reino a gosto</li>
+                            <li class="receita__ingredientes-lista">6 colheres (sopa) de manteiga</li>
+                            <li class="receita__ingredientes-lista">1/2 cebola picada</li>
+                            <li class="receita__ingredientes-lista">Polpa de 1 maracujá</li>
+                            <li class="receita__ingredientes-lista">1 colher (café) de maisena</li>
+                            <li class="receita__ingredientes-lista">1 xícara (chá) de água</li>
+                            <li class="receita__ingredientes-lista">1 maço de rúcula</li>
+                            <li class="receita__ingredientes-lista">1 xícara (chá) de tomate-cereja cortado ao meio</li>
+                            <li class="receita__ingredientes-lista">1 e 1/2 xícara (chá) de grão-de-bico cozido</li>
+                            <li class="receita__ingredientes-lista">1/2 xícara (chá) de azeite</li>
+                            <li class="receita__ingredientes-lista">1/2 colher (chá) de ervas finas</li>
+                            <h3 class="receita__ingredientes-modo">Modo de preparo</h3>
+                            <li class="receita__ingredientes-lista">Tempere o salmão com sal e pimenta.</li>
+                            <li class="receita__ingredientes-lista">Em uma frigideira grande, derreta 4 colheres (sopa) da manteiga, em fogo alto, e doure o salmão por 5 minutos de cada lado. Reserve.</li>
+                            <li class="receita__ingredientes-lista">Na mesma frigideira, em fogo médio, derreta a manteiga restante e frite a cebola até murchar.</li>
+                            <li class="receita__ingredientes-lista">Junte a polpa de maracujá, a maisena dissolvida na água, sal, pimenta e cozinhe até engrossar levemente.</li>
+                            <li class="receita__ingredientes-lista">Em uma travessa, misture a rúcula, o tomate, o grão-de-bico e tempere com o azeite, as ervas, sal e pimenta.</li>
+                            <li class="receita__ingredientes-lista">Sirva acompanhando o salmão regado pelo molho.</li>
+                         </ul>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="quem-somos">
+            <h3 class="quem-somos__titulo">Quem somos</h3>
+            <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+            <div class="pessoas">
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+                    <span class="pessoa__nome">Roberta</span>
+                    <span class="pessoa__funcao">Produtora de Conteúdo</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+                    <span class="pessoa__nome">Marcela</span>
+                    <span class="pessoa__funcao">Chef de cozinha</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--bruno"></div>
+                    <span class="pessoa__nome">Bruno</span>
+                    <span class="pessoa__funcao">Desenvolvedor</span>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <img src="/assets/img/logorodape.png" alt="Logo Fitness Food BR">
+            <p class="rodape__contato">Contato - fitnessfoodbr@gmail.com</p>
+            <p class="rodape__contato">® Fitness Food Brasil - Uma empresa do Grupo The Brothers.</p>
+            <p class="rodape__contato">Todos os direitos reservados. 2024 - Brasil.</p>
+        </footer>
+    <script src="assets/main.js"></script>
+    </body>
+</html>

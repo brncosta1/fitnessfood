@@ -1,0 +1,123 @@
+.receitas {
+    background-color: black ;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    text-align: center;
+    padding:0;
+}
+
+.receitas__banner{
+    display: block;
+    width: 100%;
+    margin: 0;
+    background: black;
+    padding: 0;
+}
+
+.receita__conteudo{
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+}
+
+.receita {
+    display: flex;
+    flex-direction: column;
+}
+
+.receita__titulo {
+    font-size: 1.6rem;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.receita__imagem:hover {
+    transform: scale(1.1);
+    transition: 1.3s;
+}
+
+.receita__descricao {
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+
+.receita__botao {
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 6px 20px;
+    background-color: whitesmoke;
+}
+
+.receita__botao:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    background: rgb(171, 171, 171);
+}
+
+.hidden {
+    display: none;
+}
+
+.receita__ingredientes-titulo{
+    margin: 2rem;
+    padding-left: 4rem;
+}
+
+.receita__ingredientes {
+    text-align: justify;
+    align-items: center;
+}
+
+.receita__ingredientes-modo{
+    margin: 2rem;
+    padding-left: 3rem;
+}
+
+.receita__ingredientes-lista {
+    margin: 0.6rem;
+}
+
+@media screen and (min-width: 0px) {
+
+    .receita {
+        width: 80%;
+        margin: 3rem;
+    }
+    .receita__imagem{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        width: 100%;
+        margin: 5rem;
+    }
+    .receita__imagem{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .receita {
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+        width: 20vw;
+        padding: 2rem;
+        align-items: center;
+        text-align: center;
+        margin-right: 5rem;
+    }
+
+    .receitas {
+       padding-left: 10em;
+    }
+
+    .receitas__banner{
+        height: 450px;
+        display: block;
+    }
+}

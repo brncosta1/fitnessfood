@@ -1,0 +1,66 @@
+.banner__imagem {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.banner{
+    background: #010101;
+    width: 100%;
+}
+
+.banner__titulo{
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 32px;
+}
+
+.banner__texto{
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2em 5em;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: 200px;
+    }
+    .banner__titulo {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .banner__texto {
+        font-size: 14px;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: 300px;
+    }
+    .banner__titulo {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .banner__texto {
+        font-size: 16px;
+        padding: 2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__imagem {
+        height:400px;
+    }
+
+    .banner__texto {
+        font-size: 22px;
+        padding: 3em;
+    }
+}
